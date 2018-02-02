@@ -7,7 +7,7 @@ Java_com_hangzhou_h890_meihao_utils_MyNdk_getSecretA(JNIEnv *env, jobject instan
     // 加密key
 
 
-    return (*env)->NewStringUTF(env, "dfileyjfmcflepqs");
+    return (*env)->NewStringUTF(env, "dfdfsdfdsfsd");
 }
 
 JNIEXPORT jstring JNICALL
@@ -16,7 +16,7 @@ Java_com_hangzhou_h890_meihao_utils_MyNdk_getSecretB(JNIEnv *env, jobject instan
     // 加密偏移量
 
 
-    return (*env)->NewStringUTF(env, "9352130217320440");
+    return (*env)->NewStringUTF(env, "435345343454");
 }
 
 JNIEXPORT jstring JNICALL
@@ -25,7 +25,7 @@ Java_com_hangzhou_h890_meihao_utils_MyNdk_getSecretC(JNIEnv *env, jobject instan
     //微信appid
 
 
-    return (*env)->NewStringUTF(env, "wx3c404ef506d13b81");
+    return (*env)->NewStringUTF(env, "dsf3fdcwewf");
 }
 
 JNIEXPORT jstring JNICALL
@@ -34,7 +34,7 @@ Java_com_hangzhou_h890_meihao_utils_MyNdk_getSecretD(JNIEnv *env, jobject instan
     //
 
 
-    return (*env)->NewStringUTF(env, "ldowmcialcmfiwrt");
+    return (*env)->NewStringUTF(env, "sfdsfdgd");
 }
 
 JNIEXPORT jstring JNICALL
@@ -43,7 +43,7 @@ Java_com_hangzhou_h890_meihao_utils_MyNdk_getSecretE(JNIEnv *env, jobject instan
     //instance
 
 
-    return (*env)->NewStringUTF(env, "fdgh4ghyh865cdwr");
+    return (*env)->NewStringUTF(env, "dsfrgfdf");
 }
 
 JNIEXPORT jint JNICALL
@@ -51,7 +51,7 @@ Java_com_hangzhou_h890_meihao_utils_MyNdk_getSecretF(JNIEnv *env, jobject instan
                                                      jstring input_) {
     const char *input = (*env)->GetStringUTFChars(env, input_, 0);
     //  app签名MD5
-    char  *c="a83b28cbd729e053bbe2f648f03ca713";
+    char  *c="fsdfdc";
     int  resultCode=strcmp(c,input);
     if(resultCode==0)
         return 1;
